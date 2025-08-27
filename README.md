@@ -91,3 +91,24 @@ This project is not just art — it’s math in action!
 
 👉 This project demonstrates how **calculus (gradients), geometry (iterations), probability (random jumps), and fractals (self-similarity)** combine to turn an ordinary picture into mathematical art.
 
+### usage 
+
+```
+python image_to_ifs.py free-nature-images.jpg -o fractal.png --iters 300000 --sigma 2.0 --point-size 0.3
+```
+
+```
+python image_to_ifs.py free-nature-images.jpg -o dots.png --step 1.0 --no-overlay --point-size 3.0 --iters 200000
+```
+
+```
+python image_to_ifs.py free-nature-images.jpg -o cloud.png --step 0.7 --no-overlay --point-size 0.4
+```
+
+```
+python image_to_ifs.py free-nature-images.jpg -o sketch.png --step 1.0 --no-overlay --no-color --point-size 1.2
+```
+
+```
+python image_to_ifs.py free-nature-images.jpg -o fractal.png --step 1.0 --no-overlay
+```
